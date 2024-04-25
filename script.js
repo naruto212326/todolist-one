@@ -1,6 +1,8 @@
+//獲取input和任務列表容器的引用
 const inputBox = document.getElementById("input-box")
 const listContainer = document.getElementById("list-container")
 
+//案件事件函數
 function handleKeyPress(event) {
     if (event.key === "Enter") {
         event.preventDefault(); // 阻止默认的 Enter 键行为，避免表单提交等

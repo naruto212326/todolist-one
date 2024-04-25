@@ -75,7 +75,7 @@ ul li::before{
 }
 ul li.checked{
     color: #555;
-    text-decoration: line-through;
+    text-decoration: line-through; /* 刪除線 */
 }
 ul li.checked::before{
     background-image: url(To-Do-Img/images/checked.png);
